@@ -47,7 +47,7 @@ def main():
         choice = input("Enter your choice (1-3): ")
 
         if choice == '1':
-            plot_temps(dates, highs, "Daily High Temperatures - 2018", 'red')
+            plot_temps(dates, highs, "Daily High Temperatures - 2018", 'magenta')
         elif choice == '2':
             plot_temps(dates, lows, "Daily Low Temperatures - 2018", 'blue')
         elif choice == '3':

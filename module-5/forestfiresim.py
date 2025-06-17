@@ -23,9 +23,9 @@ FIRE = '@'
 EMPTY = ' '
 
 # (!) Try changing these settings to anything between 0.0 and 1.0:
-INITIAL_TREE_DENSITY = 0.5 # Amount of forest that starts with trees.
-GROW_CHANCE = 1.0  # Chance a blank space turns into a tree.
-FIRE_CHANCE = 1.0  # Chance a tree is hit by lightning & burns.
+INITIAL_TREE_DENSITY = 1.0 # Amount of forest that starts with trees.
+GROW_CHANCE = 0.50  # Chance a blank space turns into a tree.
+FIRE_CHANCE = 0.20  # Chance a tree is hit by lightning & burns.
 
 # (!) Try setting the pause length to 1.0 or 0.0:
 PAUSE_LENGTH = 1.0
